@@ -1,0 +1,21 @@
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.cards {
+  display: flex;
+  gap: 30px;
+}
+.card {
+  padding: 30px;
+  border-radius: 10px;
+  border: 2px solid black;
+  transition: 0.5s;
+}
+.card:hover {
+  background-color: red;
+  scale: 0.8;
+  cursor: pointer;
+}
